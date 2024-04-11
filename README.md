@@ -1,13 +1,12 @@
 # injury_predictor
 
-Injury Prediction In Competitive Runners With Machine Learning - Datasets
+### Injury Prediction In Competitive Runners With Machine Learning - Datasets
 
-This work encompasses two datasets uploaded to Dataverse:
-
+#### This work encompasses two datasets uploaded to Dataverse:
 1. day_approach_maskedID_timeseries.csv, corresponding to the day approach
 2. week_approach_maskedID_timeseries.csv, corresponding to the week approach
 
-All features are described in detail in our paper:
+### All features are described in detail in this paper:
 Lövdal, Azzopardi, den Hartigh, "Injury Prediction in Competitive Runners With Machine Learning", International journal of sports physiology and performance, 2020
 
 
@@ -17,7 +16,7 @@ and three weeks with features aggregated on a weekly level for the week approach
 
 ####################################################################################
 
-For the day approach the features for a specific day are the following:
+#### For the day approach the features for a specific day are the following:
 
 nr. sessions (number of trainings completed)
 total km (number of kilometers covered by running)
@@ -40,7 +39,7 @@ perceived recovery (athlete's own estimation of how well rested they felt before
 
 ####################################################################################
 
-For the week approach the summarized features for a specific week are the following:
+#### For the week approach the summarized features for a specific week are the following:
 
 nr. sessions (total number of sessions completed)
 nr. rest days (number of days without a training)
@@ -71,7 +70,7 @@ max recovery (the highest rating in how well rested the athlete felt before a se
 
 ####################################################################################
 
-The features are numbered according to how many days (or weeks) before the event 
+#### The features are numbered according to how many days (or weeks) before the event 
 day (injury or no injury) they occurred, starting the count from 0.
 So nr. sessions indicates the number of
 sessions completed the day before the event day, nr.sessions.1 the number 
