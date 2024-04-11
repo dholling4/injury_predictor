@@ -1,4 +1,4 @@
-# injury_predictor
+# Injury Predictor using Machine Learning
 
 ### Injury Prediction In Competitive Runners With Machine Learning - Datasets
 
