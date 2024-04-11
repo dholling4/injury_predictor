@@ -14,7 +14,6 @@ The features pertaining to training load and/or recovery are expressed as a
 time series covering seven individual days for the day approach, 
 and three weeks with features aggregated on a weekly level for the week approach.
 
-####################################################################################
 
 #### For the day approach the features for a specific day are the following:
 
@@ -37,7 +36,6 @@ perceived recovery (athlete's own estimation of how well rested they felt before
 	 	    the start of the session. In case of of a 
 		   rest day, this value will be -0.01)
 
-####################################################################################
 
 #### For the week approach the summarized features for a specific week are the following:
 
@@ -68,7 +66,6 @@ avg recovery (the average rating in how well rested the athlete felt before each
 min recovery (the smallest rating in how well rested the athlete felt before a session)
 max recovery (the highest rating in how well rested the athlete felt before a session)
 
-####################################################################################
 
 #### The features are numbered according to how many days (or weeks) before the event 
 day (injury or no injury) they occurred, starting the count from 0.
@@ -83,5 +80,3 @@ Furthermore, both data sets include a binary column indicating whether
 this training setup resulted in an injury (1) or not (0). The Athlete ID 
 is an indicator for different athletes, and the date column indicates the 
 event day, relative to the first record in the data set.
-
-#####################################################################################
